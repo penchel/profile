@@ -1,0 +1,53 @@
+body{
+    
+    background-color: white;
+}
+
+.colegas{
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.tic{
+
+    margin: 0 auto;
+    display: block;
+}
+
+
+  
+
+
+@media only screen and (max-width: 600px) {
+    .linha{
+        width: 100%;
+        background-color: gray;
+        height: 1px;
+    }
+    .linkedinis{
+        width: 15px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .linha{
+        width: 100%;
+        background-color: gray;
+        height: 2px;
+    }
+    .linkedinis{
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .linha{
+        width: 100%;
+        background-color: gray;
+        height: 3px;
+    }
+    .linkedinis{
+        width: 50px;
+    }
+}
